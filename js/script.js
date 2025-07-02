@@ -9,4 +9,8 @@ for(i=1;i<=100;i++){
   else if(i%3===0){
     console.log(`Fizz`)
   }
+  //4. Verifica se il valore di i sia divisibile per 5 nel caso stampa il valore Buzz
+  else if(i%5===0){
+    console.log(`Buzz`)
+  }
 }
