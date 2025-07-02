@@ -13,4 +13,8 @@ for(i=1;i<=100;i++){
   else if(i%5===0){
     console.log(`Buzz`)
   }
+  //5. Se il valore non è divisibile per 3 e per 5 restituisce il valore di i
+  else{
+    console.log(i)
+  }
 }
